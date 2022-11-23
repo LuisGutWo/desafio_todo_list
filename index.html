@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Métodos de Arreglos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <div class="card-container">
+            <h1>To do list</h1>
+            <hr>
+            <h3>Nueva tarea</h3>
+            <form id="form" class="form-section">
+                <input id="nuevaTarea" type="text" class="input" placeholder=" Ingrese nueva tarea">
+                <button type="submit" class="button">Agregar</button>
+            </form>
+            <p class="title-id">ID Tarea</p>
+            <article class="content-container">
+                <section class="total-list">
+                    <p>Total: <span id="quantity"></span></p>
+                    <p id="realizadas">Realizadas:</p>
+                </section>
+
+                <ul id="listaTareas"></ul>
+
+            </article>
+
+        </div>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
